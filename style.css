@@ -5,19 +5,13 @@ html {
     width: auto;
     padding-left: 5%;
     padding-right: 4%;
-    /* margin-left: 10px;
-            margin-right: 300px; */
-    /* max-width: 500px;
-            margin: auto;
-            background: white;
-            padding: 10px; */
+    
 }
 
 body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
-    /* font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box; */
+    
 }
 
 
@@ -67,18 +61,16 @@ i.fas.fa-download {
 /* icon top */
 
 
-/* icons */
+
 
 ul.sidenav {
     list-style-type: none;
-    /* margin: 0; */
+   
     padding: 0;
     width: 25%;
     position: fixed;
     height: 100%;
     overflow: auto;
-    /* padding-top: 280px; */
-    /**/
     padding-top: 280px;
     padding-bottom: 1px;
     padding-left: 1px;
@@ -98,8 +90,7 @@ ul.sidenav li a:hover:not(.active) {
 
 div.content {
     margin-left: 15%;
-    /* padding: 1px 16px;
-    height: 1000px; */
+    
 }
 
 @media screen and (max-width: 900px) {
@@ -185,7 +176,6 @@ div.content {
     color: white;
     font-family: "arial";
     font-size: 3em;
-    /* margin: 10px 0 0 -17px; */
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
@@ -202,7 +192,6 @@ div.content {
     color: white;
     font-family: "arial";
     font-size: 2em;
-    /* margin: 10px 0 0 -10px; */
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
@@ -235,7 +224,6 @@ div.content {
     color: white;
     font-family: "arial";
     font-size: 1.5em;
-    /* margin: 10px 0 0 -10px; */
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
@@ -257,7 +245,6 @@ div.content {
     color: white;
     font-family: "arial";
     font-size: 1.5em;
-    /* margin: 10px 0 0 -10px; */
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
@@ -278,9 +265,6 @@ div.content {
 @media screen and (max-width: 600px) {
     .row1 h1 h2 {
         font-family: "arial";
-        /* margin: 10px 0 0 -10px; */
-        /* white-space: nowrap; */
-        /* overflow: hidden; */
         width: 322px;
         height: 668px;
     }
@@ -311,7 +295,7 @@ div.content {
 */
 
 
-/*================= social media =========================================*/
+/*================= social media ===============*/
 
 .container3 {
     padding-top: 30px;
@@ -349,7 +333,7 @@ div.social-buttons {
 }
 
 
-/* Helper class to divide the icons */
+/* -- */
 
 .social-margin {
     margin-right: 15px;
@@ -449,7 +433,7 @@ a:active {
 }
 
 
-/*================= social media ==================================================*/
+/*================= social media =================*/
 
 
 /*
@@ -482,15 +466,14 @@ a:active {
 .circle-wrap .circle .mask .fill1 {
     clip: rect(0px, 75px, 150px, 0px);
     background-color: #5ad67d;
-    /* black;*/
-    /*#42A5FC;*/
+    
 }
 
 .circle-wrap .circle .mask.full,
 .circle-wrap .circle .fill1 {
     animation: fill ease-in-out 3s;
     transform: rotate(160deg);
-    /* circle %  adjustments  */
+    
 }
 
 @keyframes fill {
@@ -499,7 +482,7 @@ a:active {
     }
     100% {
         transform: rotate(160deg);
-        /* circle %  adjustments  */
+        
     }
 }
 
@@ -508,7 +491,6 @@ a:active {
     height: 130px;
     border-radius: 50%;
     background: white;
-    /*#fff;*/
     line-height: 130px;
     text-align: center;
     margin-top: 10px;
@@ -525,10 +507,6 @@ div.round {
 }
 
 
-/* div.col-sm-8{
-    width: 66.66666667%;
-} */
-
 @media screen and (min-width: 768px) {
     .col-sm-8 {
         width: 0%;
@@ -543,12 +521,6 @@ div.round {
     width: 150px;
     height: 150px;
     background: #E8E8E8;
-    /*#E8E8E8 grey white;*/
-    /*
-    #585858
-    #DAA520;
-    */
-    /*#e6e2e7;*/
     border-radius: 50%;
 }
 
@@ -567,15 +539,14 @@ div.round {
 .circle-wrap .circle .mask .fill2 {
     clip: rect(0px, 75px, 150px, 0px);
     background-color: #5ad67d;
-    /* black;*/
-    /*#42A5FC;*/
+    
 }
 
 .circle-wrap .circle .mask.full,
 .circle-wrap .circle .fill2 {
     animation: fill ease-in-out 3s;
     transform: rotate(98deg);
-    /* circle %  adjustments  */
+    
 }
 
 @keyframes fill {
@@ -584,7 +555,7 @@ div.round {
     }
     100% {
         transform: rotate(98deg);
-        /* circle %  adjustments  */
+        
     }
 }
 
@@ -593,7 +564,6 @@ div.round {
     height: 130px;
     border-radius: 50%;
     background: white;
-    /*#fff;*/
     line-height: 130px;
     text-align: center;
     margin-top: 10px;
@@ -609,10 +579,6 @@ div.round {
     font-size: 36px;
 }
 
-
-/* div.col-sm-8{
-    width: 66.66666667%;
-} */
 
 @media screen and (min-width: 768px) {
     .col-sm-8 {
@@ -631,12 +597,6 @@ div.round {
     width: 150px;
     height: 150px;
     background: #E8E8E8;
-    /*#E8E8E8 grey white;*/
-    /*
-    #585858
-    #DAA520;
-    */
-    /*#e6e2e7;*/
     border-radius: 50%;
 }
 
@@ -655,8 +615,7 @@ div.round {
 .circle-wrap .circle .mask .fill3 {
     clip: rect(0px, 75px, 150px, 0px);
     background-color: #5ad67d;
-    /* black;*/
-    /*#42A5FC;*/
+
 }
 
 .circle-wrap .circle .mask.full,
@@ -698,10 +657,6 @@ div.round {
 }
 
 
-/* div.col-sm-8{
-    width: 66.66666667%;
-} */
-
 @media screen and (min-width: 768px) {
     .col-sm-8 {
         width: 0%;
@@ -719,12 +674,6 @@ div.round {
     width: 150px;
     height: 150px;
     background: #E8E8E8;
-    /*#E8E8E8 grey white;*/
-    /*
-    #585858
-    #DAA520;
-    */
-    /*#e6e2e7;*/
     border-radius: 50%;
 }
 
@@ -743,8 +692,7 @@ div.round {
 .circle-wrap .circle .mask .fill4 {
     clip: rect(0px, 75px, 150px, 0px);
     background-color: #5ad67d;
-    /* black;*/
-    /*#42A5FC;*/
+    
 }
 
 .circle-wrap .circle .mask.full,
@@ -769,7 +717,6 @@ div.round {
     height: 130px;
     border-radius: 50%;
     background: white;
-    /*#fff;*/
     line-height: 130px;
     text-align: center;
     margin-top: 10px;
@@ -785,10 +732,6 @@ div.round {
     font-size: 36px;
 }
 
-
-/* div.col-sm-8{
-    width: 66.66666667%;
-} */
 
 @media screen and (min-width: 768px) {
     .col-sm-8 {
@@ -807,12 +750,6 @@ div.round {
     width: 150px;
     height: 150px;
     background: #E8E8E8;
-    /*#E8E8E8 grey white;*/
-    /*
-    #585858
-    #DAA520;
-    */
-    /*#e6e2e7;*/
     border-radius: 50%;
 }
 
@@ -831,8 +768,7 @@ div.round {
 .circle-wrap .circle .mask .fill5 {
     clip: rect(0px, 75px, 150px, 0px);
     background-color: #5ad67d;
-    /* black;*/
-    /*#42A5FC;*/
+    
 }
 
 .circle-wrap .circle .mask.full,
@@ -874,10 +810,6 @@ div.round {
 }
 
 
-/* div.col-sm-8{
-    width: 66.66666667%;
-} */
-
 @media screen and (min-width: 768px) {
     .col-sm-8 {
         width: 0%;
@@ -895,12 +827,6 @@ div.round {
     width: 150px;
     height: 150px;
     background: #E8E8E8;
-    /*#E8E8E8 grey white;*/
-    /*
-    #585858
-    #DAA520;
-    */
-    /*#e6e2e7;*/
     border-radius: 50%;
 }
 
@@ -919,8 +845,6 @@ div.round {
 .circle-wrap .circle .mask .fill6 {
     clip: rect(0px, 75px, 150px, 0px);
     background-color: #5ad67d;
-    /* black;*/
-    /*#42A5FC;*/
 }
 
 .circle-wrap .circle .mask.full,
@@ -945,7 +869,6 @@ div.round {
     height: 130px;
     border-radius: 50%;
     background: white;
-    /*#fff;*/
     line-height: 130px;
     text-align: center;
     margin-top: 10px;
@@ -961,10 +884,6 @@ div.round {
     font-size: 36px;
 }
 
-
-/* div.col-sm-8{
-    width: 66.66666667%;
-} */
 
 @media screen and (min-width: 768px) {
     .col-sm-8 {
@@ -1020,16 +939,13 @@ dark grey/black - #191919
     display: inline-block;
     width: 180px;
     height: 170px;
-    /* border: 2px solid; */
     border: 12px solid
-    /*#00aef0*/
     #42A5FC;
     margin: 0 30px;
     font-size: 12px;
     border-radius: 50%;
     overflow: hidden;
     text-align: center;
-    /* transform: translate(50%, 50%); */
     align-items: center;
 }
 
@@ -1091,31 +1007,9 @@ button:hover {
 
 /*=========== CountDown end ===============*/
 
-
-/*============= Get in Touch =============*/
-
-
-/*============= Get in Touch end =============*/
-
-
-/*PEN STYLES*/
-
-
 /*
-        *
-        *
-        *
-        *
-        *
-        *
-        *
-        */
-
-
-/* * {
-    box-sizing: border-box;
-} */
-
+*
+*/
 
 /*============= About =============*/
 
@@ -1356,39 +1250,8 @@ button:hover {
         padding-left: 25px;
     }
 }
-
-
 /*============= About end =============*/
 
-
-/*
-*
-*
-*
-/*
-white	        #FFFFFF	rgb(255,255,255) #ffffff
-goldenrod	    #DAA520	rgb(218,165,32)
-gray	        #808080	rgb(128,128,128)
-darkslategray	#2F4F4F	rgb(47,79,79)
-royalblue	#4169E1	rgb(65,105,225)
-     blue	#0000FF	rgb(0,0,255)
-     dodgerblue	#1E90FF	rgb(30,144,255)
-     olivedrab	#6B8E23	rgb(107,142,35)
-     green	#008000	rgb(0,128,0)
-     yellow	#FFFF00	rgb(255,255,0)
-     orange	#FFA500	rgb(255,165,0)
-     red	#FF0000	rgb(255,0,0)
-     darkorange	#FF8C00	rgb(255,140,0)
-   gold --#fad25a
-
-#ffd700 gold   ---	#0028ff blue
-dark grey/black - #191919
-*
-        *
-        *
-        *
-        *
-        */
 
 
 /*============= resume ==============*/
@@ -1406,28 +1269,27 @@ dark grey/black - #191919
 }
 
 .wrapper {
-    /* border: 2px solid #000; */
+    
     overflow: hidden;
 }
 
 .wrapper div {
     min-height: 300px;
-    /* padding: 10px; */
+    
 }
 
 #one {
-    /* background-color: gray; */
+   
     float: left;
     margin-right: 20px;
     width: 650px;
-    /* border-right: 2px solid #000; */
+    
 }
 
 #one {
     background-color: white;
     overflow: hidden;
     margin: 10px;
-    /* border: 2px dashed #ccc; */
     min-height: 270px;
 }
 
@@ -1435,7 +1297,6 @@ dark grey/black - #191919
     background-color: white;
     overflow: hidden;
     margin: 10px;
-    /* border: 2px dashed #ccc; */
     min-height: 270px;
 }
 
@@ -1449,11 +1310,6 @@ dark grey/black - #191919
     }
 }
 
-
-/* * {
-    margin: 0;
-    padding: 0;
-} */
 
 .clear {
     clear: both;
@@ -1483,10 +1339,6 @@ dark grey/black - #191919
     dd {
         width: none;
         float: none;
-        /* dd {
-    width: 600px;
-    float: right;
-} */
     }
 }
 
@@ -1495,11 +1347,6 @@ dark grey/black - #191919
         float: none;
         margin: none;
         height: none;
-        /* dd.clear {
-    float: none;
-    margin: 0;
-    height: 15px;
-} */
     }
 }
 
@@ -1531,36 +1378,6 @@ dt {
     height: 252px;
     border-right: 3px solid #999;
 }
-
-
-/* 
-
-
-/*
-white	        #FFFFFF	rgb(255,255,255) #ffffff
-goldenrod	    #DAA520	rgb(218,165,32)
-gray	        #808080	rgb(128,128,128)
-darkslategray	#2F4F4F	rgb(47,79,79)
-royalblue	#4169E1	rgb(65,105,225)
-     blue	#0000FF	rgb(0,0,255)
-     dodgerblue	#1E90FF	rgb(30,144,255)
-     olivedrab	#6B8E23	rgb(107,142,35)
-     green	#008000	rgb(0,128,0)
-     yellow	#FFFF00	rgb(255,255,0)
-     orange	#FFA500	rgb(255,165,0)
-     red	#FF0000	rgb(255,0,0)
-     darkorange	#FF8C00	rgb(255,140,0)
-   gold --#fad25a
-
-#ffd700 gold   ---	#0028ff blue
-dark grey/black - #191919
-*
-        *
-        *
-        *
-        *
-        */
-
 
 /*============= resume end ==========*/
 
@@ -1619,7 +1436,11 @@ input[type=submit]:hover {
 }
 
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* 
+Responsive layout - when the screen is less than 600px wide, 
+make the two columns stack on top of each other instead of next 
+to each other 
+*/
 
 @media screen and (max-width: 600px) {
     .column,
@@ -1630,14 +1451,14 @@ input[type=submit]:hover {
 }
 
 
-/*=============================================*/
+/*====================== Form =======================*/
 
 .section-padding {
     padding: 45px 0;
 }
 
 .section-dark {
-    /* background-color: #f9f9f9; */
+    
     z-index: -2;
 }
 
@@ -1685,7 +1506,7 @@ div.find-widget {
 
 .form-control::-webkit-input-placeholder,
 .form-group .form-control::-webkit-input-placeholder {
-    /* color: #BDBDBD; */
+    
     font-weight: 400
 }
 
@@ -2220,14 +2041,9 @@ img {
     }
 }
 
-
-/*=============================================*/
-
+/*========================= Form ===========================*/
 
 /*========== FOOTER ============*/
-
-
-/* Style the footer */
 
 footer {
     background-color: white;
