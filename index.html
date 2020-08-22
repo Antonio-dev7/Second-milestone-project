@@ -32,6 +32,21 @@
     <!-- Contact Form -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Contact Form -->
+
+<!--dsdsd-->
+    <!-- contact form API -->
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){ 
+      emailjs.init("user_6I94XIFeaEHTSyzlOaX5G"); /* user id */
+    //   emailjs.send("gmail", "Antonio",{name: "Aj", notes: "The work related subject is..."});  = test email function.
+    })();
+</script>
+
+    <!-- contact form API -->
 </head>
 
 
@@ -342,7 +357,8 @@
             <br>
             <div class="col-sm-9 text-center">
                 <div id="countdown">
-                    <h1 style="text-align:center;">Countdown clock</h1>
+                    <h1 style="text-align:center;">Full Stack Developer course countdown</h1>
+                    <br>
                     <br>
 
                     <div class="main-countd">
@@ -468,8 +484,9 @@
         <!-- Resume end -->
 
     </div>
-</div>
-    <!--- content page end ---->
+</div><!--- content page end ---->
+    
+
 
     <!-- Contact Us Section -->
     <section class="Material-contact-section section-padding section-dark">
@@ -492,9 +509,10 @@
         <br>
         <br>
         <br>
-                <!-- contact form -->
+            <!-- contact form -->
                 <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
-                    <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+
+                    <form onsubmit="return sendMail(this);" class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
                         <!-- Name -->
                         <div class="form-group label-floating">
                             <label class="control-label" for="name">Name</label>
@@ -508,11 +526,11 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- Subject -->
-                        <div class="form-group label-floating">
+                        <!-- <div class="form-group label-floating">
                             <label class="control-label">Subject</label>
                             <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
                             <div class="help-block with-errors"></div>
-                        </div>
+                        </div> -->
                         <!-- Message -->
                         <div class="form-group label-floating">
                             <label for="message" class="control-label">Message</label>
@@ -525,13 +543,14 @@
                             <div id="msgSubmit" class="h3 text-center hidden"></div>
                             <div class="clearfix"></div>
                         </div>
-                    </form>
+                    </form> <!-- contact form end-->
                 </div>
             </div>
 
         </div>
 
     </section>
+
     <div class="find-widget">
         Email: antoniodeveloper369@gmail.com
     </div>
@@ -586,6 +605,10 @@
         </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- form src-->
+
+    <script src="sendEmail.js"></script>
 
 
 </body>
