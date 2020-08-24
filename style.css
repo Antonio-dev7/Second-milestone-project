@@ -1214,7 +1214,7 @@ button:hover {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         flex-direction: row;
-        /* max-width: 700px; */
+        
     }
     .blog-card .meta {
         flex-basis: 40%;
