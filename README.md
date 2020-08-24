@@ -41,7 +41,9 @@ Is also a great way for companies to download my CV and see what i have build.
 
 1. HTML
 2. CSS
-3. Bootstrap (3.4.1)
+3. Javascript
+4. Bootstrap (3.4.1)
+5. Concept(App used to draw WireFrame)
 
 
 # Testing 
@@ -68,7 +70,7 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 named index.html.
 
 To run locally, clone this repository directly into the editor of your choice by pasting git clone :
- https://github.com/Antonio-dev7/milestone-project.git  into your terminal. To cut ties with this GitHub repository, 
+ https://github.com/Antonio-dev7/Second-milestone-project.git into your terminal. To cut ties with this GitHub repository, 
  type git remote rm origin into the terminal.
 
 
@@ -76,9 +78,10 @@ To run locally, clone this repository directly into the editor of your choice by
 
 ### Content
 All content, 
-* Index 
-* Style
-* README
+* Index.html 
+* Style.css
+* sendEmail.js
+* README.md
 
 ### Media
 - The photos used in this site were obtained from Unsplash <https://unsplash.com/>
